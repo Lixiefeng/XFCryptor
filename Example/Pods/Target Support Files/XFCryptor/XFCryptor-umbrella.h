@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "RSACryptor.h"
 
 FOUNDATION_EXPORT double XFCryptorVersionNumber;
 FOUNDATION_EXPORT const unsigned char XFCryptorVersionString[];

@@ -21,6 +21,8 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		7792C5A0262C594000AA6B6D /* p.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 7792C59E262C594000AA6B6D /* p.p12 */; };
+		7792C5A1262C594000AA6B6D /* rsacert.der in Resources */ = {isa = PBXBuildFile; fileRef = 7792C59F262C594000AA6B6D /* rsacert.der */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		9AEED2E45BBE621771A90A63 /* Pods_XFCryptor_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A74BB94C4322314F5D27F76 /* Pods_XFCryptor_Example.framework */; };
 		9D4D1F8267B656594E3D9200 /* Pods_XFCryptor_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C99AABA4A41199C779337C8 /* Pods_XFCryptor_Tests.framework */; };
@@ -37,10 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		18DA46F970128431E7E85B69 /* XFCryptor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XFCryptor.podspec; path = ../XFCryptor.podspec; sourceTree = "<group>"; };
+		18DA46F970128431E7E85B69 /* XFCryptor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XFCryptor.podspec; path = ../XFCryptor.podspec; sourceTree = "<group>"; };
 		2A74BB94C4322314F5D27F76 /* Pods_XFCryptor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XFCryptor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C99AABA4A41199C779337C8 /* Pods_XFCryptor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XFCryptor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E9308CE686A05F539FF3EB6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3E9308CE686A05F539FF3EB6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		55161C464DFA4126E42E8AD8 /* Pods-XFCryptor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XFCryptor_Tests.release.xcconfig"; path = "Target Support Files/Pods-XFCryptor_Tests/Pods-XFCryptor_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* XFCryptor_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XFCryptor_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,11 +64,13 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7792C59E262C594000AA6B6D /* p.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = p.p12; sourceTree = "<group>"; };
+		7792C59F262C594000AA6B6D /* rsacert.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = rsacert.der; sourceTree = "<group>"; };
 		78E3EB8239D0D791BEB3A13D /* Pods-XFCryptor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XFCryptor_Example.release.xcconfig"; path = "Target Support Files/Pods-XFCryptor_Example/Pods-XFCryptor_Example.release.xcconfig"; sourceTree = "<group>"; };
 		85D2B9D65683270479901D77 /* Pods-XFCryptor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XFCryptor_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XFCryptor_Tests/Pods-XFCryptor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E65444F27245ACA3E721BF64 /* Pods-XFCryptor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XFCryptor_Example.debug.xcconfig"; path = "Target Support Files/Pods-XFCryptor_Example/Pods-XFCryptor_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F05A8928209C1637AC9C1875 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F05A8928209C1637AC9C1875 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +136,8 @@
 		6003F593195388D20070C39A /* Example for XFCryptor */ = {
 			isa = PBXGroup;
 			children = (
+				7792C59E262C594000AA6B6D /* p.p12 */,
+				7792C59F262C594000AA6B6D /* rsacert.der */,
 				6003F59C195388D20070C39A /* XFAppDelegate.h */,
 				6003F59D195388D20070C39A /* XFAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -193,7 +199,6 @@
 				85D2B9D65683270479901D77 /* Pods-XFCryptor_Tests.debug.xcconfig */,
 				55161C464DFA4126E42E8AD8 /* Pods-XFCryptor_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +263,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -280,6 +286,8 @@
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				7792C5A0262C594000AA6B6D /* p.p12 in Resources */,
+				7792C5A1262C594000AA6B6D /* rsacert.der in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

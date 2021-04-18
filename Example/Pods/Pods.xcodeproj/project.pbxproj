@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		141EF123CC2C10F57C53C6D70A411D07 /* XFCryptor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD2A073D54B2555741F3738CD126045D /* XFCryptor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		17496D9620A86EE1903D58DA06C8426A /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A0B9C817A483B36FD2864F67F45837 /* ReplaceMe.m */; };
-		3080DA03B7D5BC14E58C480720393E47 /* XFCryptor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4CC22C598BF42D801C736E56DA9F04 /* XFCryptor-dummy.m */; };
 		456DDB25318E430253BF60D3E594A507 /* Pods-XFCryptor_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 565D5064E097AB2CD51D01264A656656 /* Pods-XFCryptor_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4BEECFD762E0A3EA07EF78D5CC39BA25 /* Pods-XFCryptor_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F737085FC25FB1789F3401F65BCA5B88 /* Pods-XFCryptor_Tests-dummy.m */; };
+		59C665889E7EDBE17AEE4BBA26E9E4E0 /* XFCryptor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F234C9C780077EBD3E4A598ABEFEAC9 /* XFCryptor-dummy.m */; };
+		5DB5C9B78C14987A126488D72E5DC49A /* RSACryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 893255CEA884E0C1BD6E76A060F5B06C /* RSACryptor.m */; };
 		6067A439B62EAB38EE41D9FF5C506975 /* Pods-XFCryptor_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCB1FF8CE9B22B9B6590392C414E36D /* Pods-XFCryptor_Example-dummy.m */; };
+		639A5525D7F415D89DBCD60E183AD0D9 /* RSACryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 231FB57478769F5E6AD920BA6778326F /* RSACryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B2B7688AA00B9DA2D7A396BD159E08BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		CA9780A7F16FCAE62641D97D279ECE9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		DE673F693BAC64D9D15C0389F54A155A /* XFCryptor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C7BEBC4824FCA26BE1FC33E27B14725 /* XFCryptor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA433FD40A6F2FF7E802DDEDC7774BB8 /* Pods-XFCryptor_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C51614C967C884D534A11A256875969 /* Pods-XFCryptor_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F01FAAC3CEFB4F3FA908DBC65975332F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -38,35 +39,36 @@
 
 /* Begin PBXFileReference section */
 		0033BF5F86CC65F224F2B4A20A15D282 /* Pods-XFCryptor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XFCryptor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		02D0619A16D001FC09301C85B746D3C7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		043FAE46B73FBCB1D4C23DFB84A4A486 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		04E0AE069A50F47D1EA2DD27943C2067 /* Pods-XFCryptor_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XFCryptor_Tests.modulemap"; sourceTree = "<group>"; };
-		06E7F24A8B3B232A1C94363EE64970B0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		0C0372266351709C9602ADEDBA2DBC2A /* Pods-XFCryptor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XFCryptor_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1128EAB8536733907DF0170FE3582398 /* XFCryptor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XFCryptor-prefix.pch"; sourceTree = "<group>"; };
 		119DC40873DF4D4ECD753B29BA14E821 /* Pods-XFCryptor_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XFCryptor_Example-Info.plist"; sourceTree = "<group>"; };
-		21EB3E983A00AEF88A1CCEE35C6A4ECC /* XFCryptor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XFCryptor-prefix.pch"; sourceTree = "<group>"; };
+		231FB57478769F5E6AD920BA6778326F /* RSACryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSACryptor.h; path = XFCryptor/Classes/RSACryptor.h; sourceTree = "<group>"; };
+		2C7BEBC4824FCA26BE1FC33E27B14725 /* XFCryptor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XFCryptor-umbrella.h"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		395439D83DFA1BF6940D48FBD554BB91 /* Pods-XFCryptor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XFCryptor_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		39B0F586310DEF94F2A2525C157462D5 /* Pods-XFCryptor_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XFCryptor_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		45A0B9C817A483B36FD2864F67F45837 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = XFCryptor/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		40458BBA642BB6BA28B8195E96EFC6A9 /* XFCryptor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XFCryptor.xcconfig; sourceTree = "<group>"; };
+		450913DFF23959261351CE6710C6C656 /* XFCryptor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XFCryptor.modulemap; sourceTree = "<group>"; };
+		4741B6D41364E904810441396AEDF4B0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		49594EACF77C9F36AA998EEC701B7C98 /* Pods-XFCryptor_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XFCryptor_Tests-Info.plist"; sourceTree = "<group>"; };
-		4B4CC22C598BF42D801C736E56DA9F04 /* XFCryptor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XFCryptor-dummy.m"; sourceTree = "<group>"; };
 		565D5064E097AB2CD51D01264A656656 /* Pods-XFCryptor_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XFCryptor_Example-umbrella.h"; sourceTree = "<group>"; };
+		5F234C9C780077EBD3E4A598ABEFEAC9 /* XFCryptor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XFCryptor-dummy.m"; sourceTree = "<group>"; };
 		686BDD08F8E214FF70E14A7E158B95E4 /* Pods_XFCryptor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XFCryptor_Example.framework; path = "Pods-XFCryptor_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68A0B37892F5CEAF9E2770A4FED0391B /* Pods-XFCryptor_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XFCryptor_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6C51614C967C884D534A11A256875969 /* Pods-XFCryptor_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XFCryptor_Tests-umbrella.h"; sourceTree = "<group>"; };
 		7883C743AEFE54EA46C3B5D432A93B4D /* Pods-XFCryptor_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XFCryptor_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7EAB2C23590C84388C46D861E68C0FA8 /* Pods-XFCryptor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XFCryptor_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		810387E7B7DE675DA552218DE69F9E09 /* XFCryptor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XFCryptor.modulemap; sourceTree = "<group>"; };
+		893255CEA884E0C1BD6E76A060F5B06C /* RSACryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSACryptor.m; path = XFCryptor/Classes/RSACryptor.m; sourceTree = "<group>"; };
+		8E3EE6A5424C501B6D341203D4037DA8 /* XFCryptor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XFCryptor-Info.plist"; sourceTree = "<group>"; };
 		93B802D14ADAC1500C6364B6FED6ADEE /* Pods-XFCryptor_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XFCryptor_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9CC0BEFB43119100EA16FEC4DE0BE538 /* Pods-XFCryptor_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XFCryptor_Example-frameworks.sh"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AD2A073D54B2555741F3738CD126045D /* XFCryptor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XFCryptor-umbrella.h"; sourceTree = "<group>"; };
 		C2E58200E2E95B4614D565001C13FA79 /* Pods-XFCryptor_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XFCryptor_Example.modulemap"; sourceTree = "<group>"; };
-		D62B17D4CF34130E5D4FCFD05FA63077 /* XFCryptor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XFCryptor.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DAB4928E1B164D85B744B553AE990B1E /* Pods_XFCryptor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XFCryptor_Tests.framework; path = "Pods-XFCryptor_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF58C59FF2DFFF58C96701394DDCA387 /* XFCryptor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XFCryptor.framework; path = XFCryptor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA30CD4073EE988D0925EFA10021D2AC /* XFCryptor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XFCryptor.xcconfig; sourceTree = "<group>"; };
-		F10681CD774359A69CBC93DFF7DF2852 /* XFCryptor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XFCryptor-Info.plist"; sourceTree = "<group>"; };
+		E8AE4A005E05A6F45052F9DD95B57999 /* XFCryptor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XFCryptor.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F737085FC25FB1789F3401F65BCA5B88 /* Pods-XFCryptor_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XFCryptor_Tests-dummy.m"; sourceTree = "<group>"; };
 		FBCB1FF8CE9B22B9B6590392C414E36D /* Pods-XFCryptor_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XFCryptor_Example-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -99,6 +101,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A6F5CE806B71D86A0E2A858D866D3DE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1ACB85AFF49834CF6AF981C74D36F8D /* XFCryptor */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		1A61292313C74C1BFF5F46532C49EBBC /* Pods-XFCryptor_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -132,28 +142,6 @@
 			path = "Target Support Files/Pods-XFCryptor_Example";
 			sourceTree = "<group>";
 		};
-		37F38D27617E72AB9D50389691DFCEEA /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7C797B316034F4448CB0010C39348FE1 /* XFCryptor */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		411315099E3A445325979F6954B0E83D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				810387E7B7DE675DA552218DE69F9E09 /* XFCryptor.modulemap */,
-				EA30CD4073EE988D0925EFA10021D2AC /* XFCryptor.xcconfig */,
-				4B4CC22C598BF42D801C736E56DA9F04 /* XFCryptor-dummy.m */,
-				F10681CD774359A69CBC93DFF7DF2852 /* XFCryptor-Info.plist */,
-				21EB3E983A00AEF88A1CCEE35C6A4ECC /* XFCryptor-prefix.pch */,
-				AD2A073D54B2555741F3738CD126045D /* XFCryptor-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/XFCryptor";
-			sourceTree = "<group>";
-		};
 		5F05DCE642E100E851AE36223B3ECEA3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,15 +152,28 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7C797B316034F4448CB0010C39348FE1 /* XFCryptor */ = {
+		757E7AA570F310EABFBC4F0A3D50ED4C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				45A0B9C817A483B36FD2864F67F45837 /* ReplaceMe.m */,
-				FE574322D6C2A96D5AADCDB6D8EA5111 /* Pod */,
-				411315099E3A445325979F6954B0E83D /* Support Files */,
+				450913DFF23959261351CE6710C6C656 /* XFCryptor.modulemap */,
+				40458BBA642BB6BA28B8195E96EFC6A9 /* XFCryptor.xcconfig */,
+				5F234C9C780077EBD3E4A598ABEFEAC9 /* XFCryptor-dummy.m */,
+				8E3EE6A5424C501B6D341203D4037DA8 /* XFCryptor-Info.plist */,
+				1128EAB8536733907DF0170FE3582398 /* XFCryptor-prefix.pch */,
+				2C7BEBC4824FCA26BE1FC33E27B14725 /* XFCryptor-umbrella.h */,
 			);
-			name = XFCryptor;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XFCryptor";
+			sourceTree = "<group>";
+		};
+		A41CA7BDA5F51A48B058DED10980C2DD /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				043FAE46B73FBCB1D4C23DFB84A4A486 /* LICENSE */,
+				4741B6D41364E904810441396AEDF4B0 /* README.md */,
+				E8AE4A005E05A6F45052F9DD95B57999 /* XFCryptor.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		B0F3D1DAD65FE91DDD3D83287D78AFF6 /* Targets Support Files */ = {
@@ -182,6 +183,18 @@
 				1A61292313C74C1BFF5F46532C49EBBC /* Pods-XFCryptor_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B1ACB85AFF49834CF6AF981C74D36F8D /* XFCryptor */ = {
+			isa = PBXGroup;
+			children = (
+				231FB57478769F5E6AD920BA6778326F /* RSACryptor.h */,
+				893255CEA884E0C1BD6E76A060F5B06C /* RSACryptor.m */,
+				A41CA7BDA5F51A48B058DED10980C2DD /* Pod */,
+				757E7AA570F310EABFBC4F0A3D50ED4C /* Support Files */,
+			);
+			name = XFCryptor;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -196,7 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				37F38D27617E72AB9D50389691DFCEEA /* Development Pods */,
+				0A6F5CE806B71D86A0E2A858D866D3DE /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				5F05DCE642E100E851AE36223B3ECEA3 /* Products */,
 				B0F3D1DAD65FE91DDD3D83287D78AFF6 /* Targets Support Files */,
@@ -211,16 +224,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FE574322D6C2A96D5AADCDB6D8EA5111 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				06E7F24A8B3B232A1C94363EE64970B0 /* LICENSE */,
-				02D0619A16D001FC09301C85B746D3C7 /* README.md */,
-				D62B17D4CF34130E5D4FCFD05FA63077 /* XFCryptor.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -232,19 +235,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B538086C54ACF4EF888BBD721A0F54B2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639A5525D7F415D89DBCD60E183AD0D9 /* RSACryptor.h in Headers */,
+				DE673F693BAC64D9D15C0389F54A155A /* XFCryptor-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DA9B9EF504FD0BD65A07E32E95C15EB5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				456DDB25318E430253BF60D3E594A507 /* Pods-XFCryptor_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EF7CB1CD5C493916387B6C5A46164707 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				141EF123CC2C10F57C53C6D70A411D07 /* XFCryptor-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,8 +297,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BAEE29969392123E0CD30746DBA7753C /* Build configuration list for PBXNativeTarget "XFCryptor" */;
 			buildPhases = (
-				EF7CB1CD5C493916387B6C5A46164707 /* Headers */,
-				246D2BB096F29670C73C09138306C23C /* Sources */,
+				B538086C54ACF4EF888BBD721A0F54B2 /* Headers */,
+				E71404B4E11A9CDC64503BFAF6265EB8 /* Sources */,
 				633E34FAE03084434E0FCB36920BE091 /* Frameworks */,
 				9A543C6048F9958F1D40899D68EB7D17 /* Resources */,
 			);
@@ -361,15 +365,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		246D2BB096F29670C73C09138306C23C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				17496D9620A86EE1903D58DA06C8426A /* ReplaceMe.m in Sources */,
-				3080DA03B7D5BC14E58C480720393E47 /* XFCryptor-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		25E4E1443968A37074F713227BC3E387 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -383,6 +378,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				6067A439B62EAB38EE41D9FF5C506975 /* Pods-XFCryptor_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E71404B4E11A9CDC64503BFAF6265EB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DB5C9B78C14987A126488D72E5DC49A /* RSACryptor.m in Sources */,
+				59C665889E7EDBE17AEE4BBA26E9E4E0 /* XFCryptor-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,7 +410,7 @@
 /* Begin XCBuildConfiguration section */
 		3105A2065597D53B32394D72969F21B6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA30CD4073EE988D0925EFA10021D2AC /* XFCryptor.xcconfig */;
+			baseConfigurationReference = 40458BBA642BB6BA28B8195E96EFC6A9 /* XFCryptor.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -472,7 +476,7 @@
 		};
 		7FD36122CEAAA4DB39B2DC4C4C36D8A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA30CD4073EE988D0925EFA10021D2AC /* XFCryptor.xcconfig */;
+			baseConfigurationReference = 40458BBA642BB6BA28B8195E96EFC6A9 /* XFCryptor.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
