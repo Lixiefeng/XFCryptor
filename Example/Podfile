@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'XFCryptor_Example' do
+  pod 'XFCryptor', :path => '../'
+
+  target 'XFCryptor_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
