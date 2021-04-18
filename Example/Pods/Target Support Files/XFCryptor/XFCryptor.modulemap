@@ -1,0 +1,6 @@
+framework module XFCryptor {
+  umbrella header "XFCryptor-umbrella.h"
+
+  export *
+  module * { export * }
+}

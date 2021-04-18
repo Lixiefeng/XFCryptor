@@ -1,0 +1,16 @@
+PODS:
+  - XFCryptor (0.1.0)
+
+DEPENDENCIES:
+  - XFCryptor (from `../`)
+
+EXTERNAL SOURCES:
+  XFCryptor:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XFCryptor: a9941872a3c64abd97f8f73d1a314c38c4d0e25f
+
+PODFILE CHECKSUM: c1175a1eb575426023afccd1e0723d2682106713
+
+COCOAPODS: 1.6.1

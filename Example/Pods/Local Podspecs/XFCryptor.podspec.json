@@ -1,0 +1,22 @@
+{
+  "name": "XFCryptor",
+  "version": "0.1.0",
+  "summary": "A short description of XFCryptor.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Aron1987@126.com/XFCryptor",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Aron1987@126.com": "110111530@hdjt.hdad.local"
+  },
+  "source": {
+    "git": "https://github.com/Aron1987@126.com/XFCryptor.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "XFCryptor/Classes/**/*"
+}
