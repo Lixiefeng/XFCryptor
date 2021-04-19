@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "NSString+Hash.h"
 #import "RSACryptor.h"
 
 FOUNDATION_EXPORT double XFCryptorVersionNumber;

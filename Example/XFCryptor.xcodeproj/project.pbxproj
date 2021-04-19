@@ -23,6 +23,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		7792C5A0262C594000AA6B6D /* p.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 7792C59E262C594000AA6B6D /* p.p12 */; };
 		7792C5A1262C594000AA6B6D /* rsacert.der in Resources */ = {isa = PBXBuildFile; fileRef = 7792C59F262C594000AA6B6D /* rsacert.der */; };
+		7792C741262DDE5A00AA6B6D /* message.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7792C740262DDE5A00AA6B6D /* message.txt */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		9AEED2E45BBE621771A90A63 /* Pods_XFCryptor_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A74BB94C4322314F5D27F76 /* Pods_XFCryptor_Example.framework */; };
 		9D4D1F8267B656594E3D9200 /* Pods_XFCryptor_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C99AABA4A41199C779337C8 /* Pods_XFCryptor_Tests.framework */; };
@@ -66,6 +67,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7792C59E262C594000AA6B6D /* p.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = p.p12; sourceTree = "<group>"; };
 		7792C59F262C594000AA6B6D /* rsacert.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = rsacert.der; sourceTree = "<group>"; };
+		7792C740262DDE5A00AA6B6D /* message.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = message.txt; sourceTree = "<group>"; };
 		78E3EB8239D0D791BEB3A13D /* Pods-XFCryptor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XFCryptor_Example.release.xcconfig"; path = "Target Support Files/Pods-XFCryptor_Example/Pods-XFCryptor_Example.release.xcconfig"; sourceTree = "<group>"; };
 		85D2B9D65683270479901D77 /* Pods-XFCryptor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XFCryptor_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XFCryptor_Tests/Pods-XFCryptor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 		6003F593195388D20070C39A /* Example for XFCryptor */ = {
 			isa = PBXGroup;
 			children = (
+				7792C740262DDE5A00AA6B6D /* message.txt */,
 				7792C59E262C594000AA6B6D /* p.p12 */,
 				7792C59F262C594000AA6B6D /* rsacert.der */,
 				6003F59C195388D20070C39A /* XFAppDelegate.h */,
@@ -287,6 +290,7 @@
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				7792C5A0262C594000AA6B6D /* p.p12 in Resources */,
+				7792C741262DDE5A00AA6B6D /* message.txt in Resources */,
 				7792C5A1262C594000AA6B6D /* rsacert.der in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
