@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "EncryptionTools.h"
 #import "NSString+Hash.h"
 #import "RSACryptor.h"
 
